@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/marcon_react/static/css/main.f855e6bc.css",
+    "main.js": "/marcon_react/static/js/main.d0f67015.js",
+    "static/js/453.a9d10ace.chunk.js": "/marcon_react/static/js/453.a9d10ace.chunk.js",
+    "static/media/logo.svg": "/marcon_react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/marcon_react/index.html",
+    "main.f855e6bc.css.map": "/marcon_react/static/css/main.f855e6bc.css.map",
+    "main.d0f67015.js.map": "/marcon_react/static/js/main.d0f67015.js.map",
+    "453.a9d10ace.chunk.js.map": "/marcon_react/static/js/453.a9d10ace.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.d0f67015.js"
+  ]
+}
