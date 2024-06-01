@@ -1,0 +1,13 @@
+#check {
+    display: none;
+}
+
+.nav-image {
+    padding: 15px;
+    flex: 2;
+    margin: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 100px;
+    width: auto;
+}
