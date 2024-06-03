@@ -8,6 +8,21 @@
     margin: auto;
     -o-object-fit: contain;
     object-fit: contain;
-    height: 100px;
+    height: 60px;
     width: auto;
 }
+
+.navbar.header-bg {
+    background-color: #310a0a;
+    height: 60px;
+    padding: inherit;
+  }
+
+.nav-link {
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+

@@ -1,20 +1,18 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import logo from '../../assets/logo new.png';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './header.css'
+
 
 const Header = () => {
     return(
        <div>
-            <nav className="navbar bg-secondary" id="navbar">
+            <nav className="navbar header-bg" id="navbar">
                 <a href="./index.html"><img src={logo} alt="" className="nav-image"/></a>
-                <input type="checkbox" id="check" style={{display: 'none'}} />
-                <label htmlFor="check" className="checkbtn">
-                    <FontAwesomeIcon icon={faBars} />
-                </label>
 
             <ul className="nav">
                 <li className="nav-item"><a className="nav-link" href="./">Home</a></li>

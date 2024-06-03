@@ -1,6 +1,6 @@
 import React from "react";
 
-import Router from "../router/Router";
+import Routers from "../router/Routers";
 import Footer from "./footer/Footer";
 import Header from "./header/Header";
 
@@ -8,7 +8,7 @@ const Layout = () =>{
     return(
         <div>
             <Header/>
-            <Router/>
+            <Routers/>
             <Footer/>
         </div>
 
