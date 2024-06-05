@@ -1,7 +1,7 @@
 import React from "react";
 import logo from "../assets/logo new.png"
 import '../styles/home.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 import Carousel from '../components/carousel/carousel'
 
@@ -123,11 +123,11 @@ const Home = () => {
                 <div className="grid grid-venue">
                     <div className="mapouter gmap_canvas">
                         <div className="gmap_canvas">
-                        <iframe width="100%" height="100%" id="gmap_canvas"
+                        <iframe width="100%" height="100%" id="gmap_canvas" title="Example Site"
                             src="https://maps.google.com/maps?q=university of moratuwa&t=&z=15&ie=UTF8&iwloc=&output=embed"
-                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
-                            href="https://2yu.co"></a><br />
-                        <a href="https://embedgooglemap.2yu.co/"></a>
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <a href="https://2yu.co">a</a><br />
+                        <a href="https://embedgooglemap.2yu.co/">a</a>
                         </div>
                     </div>
                     <div className="bg-secondary-c venue-info">

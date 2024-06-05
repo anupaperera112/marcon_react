@@ -29,25 +29,25 @@ const Header = () => {
                 </li> */}
         
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="https://example.com" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Committee
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                         {/* <a className="dropdown-item" href="./organizing-committee.html">Organizing Committee</a> */}
-                        <a className="dropdown-item" href="#">Organizing Committee</a>
+                        <a className="dropdown-item" href="https://example.com">Organizing Committee</a>
                         {/* <a className="dropdown-item" href="./technical-programming-committee.html">Technical Program Committee</a> */}
-                        <a className="dropdown-item" href="#">Technical Program Committee</a>
+                        <a className="dropdown-item" href="https://example.com">Technical Program Committee</a>
                     </div>
                 </li> 
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="https://example.com" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         For Authors <i className="fa fa-caret-down" aria-hidden="true"></i>
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="#">Call for Papers</a>
-                        <a className="dropdown-item" href="#">Important Dates</a>
-                        <a className="dropdown-item" href="#">Author Instruction</a>
+                        <a className="dropdown-item" href="https://example.com">Call for Papers</a>
+                        <a className="dropdown-item" href="https://example.com">Important Dates</a>
+                        <a className="dropdown-item" href="https://example.com">Author Instruction</a>
                         {/* <a className="dropdown-item" href="./call-for-papers.html">Call for Papers</a>
                         <a className="dropdown-item" href="./important_dates.html">Important Dates</a>
                         <a className="dropdown-item" href="./author-instructions.html">Author Instruction</a> */}
@@ -57,19 +57,19 @@ const Header = () => {
                 </li>
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="https://example.com" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Explore Programs <i className="fa fa-caret-down" aria-hidden="true"></i>
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="#">Workshops</a>
-                        <a className="dropdown-item" href="#">Special Sessions</a>
+                        <a className="dropdown-item" href="https://example.com">Workshops</a>
+                        <a className="dropdown-item" href="https://example.com">Special Sessions</a>
                         {/* <a className="dropdown-item" href="./workshops_updated.html">Workshops</a>
                         <a className="dropdown-item" href="./special_sessions.html">Special Sessions</a> */}
                     </div>
                 </li> 
 
                 <li className="nav-item dropdown">
-                    <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a className="nav-link dropdown-toggle" href="https://example.com" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Past Proceedings <i className="fa fa-caret-down" aria-hidden="true"></i>
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
