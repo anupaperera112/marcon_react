@@ -1,7 +1,7 @@
 
   
 
-.bg-secondary {
+.bg-secondary-c {
   background-color: #310a0a;
 }
 .bg-white {
@@ -383,7 +383,8 @@
   .text-heading {
     text-align: center;
     text-transform: uppercase;
-    margin: 30px 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
   }
   .card {
     border-radius: 20px !important;
@@ -423,3 +424,83 @@
   padding: 0;
 }
 
+.text-underline::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 5px;
+  background-color: #410d35;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 5px;
+  margin: 10px 30px;
+  overflow: hidden;
+}
+
+.grid-sponsor {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-sponsor .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  padding: 10px;
+}
+.grid-sponsor .img-container img {
+  width: auto;
+  height: auto;
+}
+.img-container {
+  border-radius: 10px;
+  overflow: hidden;
+}
+.img-container img {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  transition: all 0.3s ease-in-out;
+}
+.img-container img:hover {
+  transform: scale(1.05);
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 100%;
+  width: 100%;
+
+  }
+
+  .grid-venue {
+    margin-top: 3rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .grid-venue .venue-info {
+    margin: 0;
+    grid-column: 3/5 !important;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mapouter {
+    border-radius: 20px;
+    overflow: hidden;
+    grid-column: 1/3;
+  }
+
+ 
+  .text-yellow {
+    color: #ffc700;
+  }

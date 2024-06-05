@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css"
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const Footer = () =>{
     return(
@@ -25,15 +26,16 @@ const Footer = () =>{
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <div className="container">
+                    <div className="container">
                     <div className="copyright">
                         &copy;<strong> 2024 University of Moratuwa,</strong> developed by
                         <a style={{fontStyle: 'italic', color: 'rgba(255, 255, 255, 0.89)'}} href="mailto:mailtonativecode@gmail.com" ><strong> NativeCode </strong></a>
                         All Rights Reserved
                     </div>
                 </div>
+                </div>
+
+                
             </footer>
 
        </div>

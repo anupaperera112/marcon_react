@@ -3,6 +3,8 @@ import logo from "../assets/logo new.png"
 import '../styles/home.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
+import Carousel from '../components/carousel/carousel'
+
 
 
 
@@ -90,6 +92,75 @@ const Home = () => {
                             </a>
                         </div>
                     ))}
+                </div>
+            </section>
+            <section id="gallery" className="text-center">
+                <h1 className="text-heading text-underline">Gallery</h1>
+                {/* carousel */}
+                <div className="owl-carousel">
+                    <Carousel/>
+                </div>
+            </section>
+            <section id="organized_by" className="text-center">
+                <h1 className="text-heading text-underline">Organized By</h1>
+                <div className="grid grid-sponsor">
+                    <div className="img-container bg-white">
+                        <img src={require('../assets/logos/1.png')} alt="" class="grid-img" />
+                    </div>
+                    <div className="img-container bg-white">
+                        <img src={require('../assets/logos/2.png')} alt="" class="grid-img" />
+                    </div>
+                    <div className="img-container bg-white">
+                        <img src={require('../assets/logos/3.png')} alt="" class="grid-img" />
+                    </div>
+                </div>
+            </section>
+
+            <section id="venue" className="text-center">
+                <h1 className="text-heading text-underline">Event Venue</h1>
+                <p className="text-center">Event venue location info and gallery</p>
+
+                <div className="grid grid-venue">
+                    <div className="mapouter gmap_canvas">
+                        <div className="gmap_canvas">
+                        <iframe width="100%" height="100%" id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=university of moratuwa&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                            href="https://2yu.co"></a><br />
+                        <a href="https://embedgooglemap.2yu.co/"></a>
+                        </div>
+                    </div>
+                    <div className="bg-secondary-c venue-info">
+                        <h2 className="text-yellow">University of Moratuwa</h2>
+                        <p >
+                        University of Moratuwa, a leading technological university in the
+                        region welcomes you to witness a truly unique experience!
+                        </p>
+                    </div>
+                    <div className="img-container">
+                        <img src={require("../assets/UoM/img1.jpg")} alt="" className="grid-img" />
+                    </div>
+                    <div className="img-container">
+                        <img src={require("../assets/UoM/img2.jpg")} alt="" className="grid-img" />
+                    </div>
+                    <div className="img-container">
+                        <img src={require("../assets/UoM/img3.jpg")} alt="" className="grid-img" />
+                    </div>
+                    <div className="img-container">
+                        <img src={require("../assets/UoM/img4.jpg")} alt="" className="grid-img" />
+                    </div>
+                    <div className="img-container">
+                        <img src={require("../assets/UoM/img5.jpg")} alt="" className="grid-img" />
+                    </div>
+                    <div className="img-container">
+                        <img src={require("../assets/UoM/img6.jpg")} alt="" className="grid-img" />
+                    </div>
+                    <div className="img-container">
+                        <img src={require("../assets/UoM/img10.jpg")} alt="" className="grid-img" />
+                    </div>
+                    <div className="img-container">
+                        <img src={require("../assets/UoM/img11.jpg")} alt="" className="grid-img" />
+                    </div>
                 </div>
             </section>
         </div>
