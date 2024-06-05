@@ -1,0 +1,23 @@
+.footer-top {
+    
+    font-size: 1rem;
+    line-height: 1.6;
+    background: linear-gradient(90.42deg, #c31432 8.4%, #240b36 90.16%);
+    color: #ffffff;
+  }
+  #footer .footer-top .social-links a {
+    font-family: "Gorgia", sans-serif;
+    margin-top: 10px;
+    font-size: 18px;
+    display: inline-block;
+    background: #222636;
+    color: #eee;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
