@@ -19,9 +19,9 @@ const Footer = () =>{
                                 </p>
 
                                 <div className="social-links">
-                                    <a href="https://twitter.com/merconeru" target="_blank" className="twitter"><i className="fa fa-twitter"></i></a>
-                                    <a href="https://www.facebook.com/pg/erumercon" target="_blank" className="facebook"><i className="fa fa-facebook"></i></a>
-                                    <a href="https://www.linkedin.com/showcase/erumercon" target="_blank" className="linkedin" ><i className="fa fa-linkedin"></i ></a>
+                                    <a href="https://twitter.com/merconeru" target="_blank" className="twitter" rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/pg/erumercon" target="_blank" className="facebook" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+                                    <a href="https://www.linkedin.com/showcase/erumercon" target="_blank" className="linkedin" rel="noopener noreferrer" ><i className="fa fa-linkedin"></i ></a>
                                 </div>
                             </div>
                         </div>
