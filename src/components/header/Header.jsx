@@ -1,6 +1,4 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars } from '@fortawesome/free-solid-svg-icons';
 import '../../../node_modules/bootstrap/dist/js/bootstrap.bundle'
 import logo from '../../assets/logo new.png';
 
@@ -35,8 +33,10 @@ const Header = () => {
                         Committee
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="./organizing-committee.html">Organizing Committee</a>
-                        <a className="dropdown-item" href="./technical-programming-committee.html">Technical Program Committee</a>
+                        {/* <a className="dropdown-item" href="./organizing-committee.html">Organizing Committee</a> */}
+                        <a className="dropdown-item" href="#">Organizing Committee</a>
+                        {/* <a className="dropdown-item" href="./technical-programming-committee.html">Technical Program Committee</a> */}
+                        <a className="dropdown-item" href="#">Technical Program Committee</a>
                     </div>
                 </li> 
 
@@ -45,9 +45,12 @@ const Header = () => {
                         For Authors <i className="fa fa-caret-down" aria-hidden="true"></i>
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="./call-for-papers.html">Call for Papers</a>
+                        <a className="dropdown-item" href="#">Call for Papers</a>
+                        <a className="dropdown-item" href="#">Important Dates</a>
+                        <a className="dropdown-item" href="#">Author Instruction</a>
+                        {/* <a className="dropdown-item" href="./call-for-papers.html">Call for Papers</a>
                         <a className="dropdown-item" href="./important_dates.html">Important Dates</a>
-                        <a className="dropdown-item" href="./author-instructions.html">Author Instruction</a>
+                        <a className="dropdown-item" href="./author-instructions.html">Author Instruction</a> */}
                         {/* <a className="dropdown-item" href="./camera_ready_paper_instructions.html">Camera Ready Paper Instructions</a>
                         <a className="dropdown-item" href="./presenter_Information.html">Presenter Information</a> */}
                     </div>
@@ -58,8 +61,10 @@ const Header = () => {
                         Explore Programs <i className="fa fa-caret-down" aria-hidden="true"></i>
                     </a>
                     <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="./workshops_updated.html">Workshops</a>
-                        <a className="dropdown-item" href="./special_sessions.html">Special Sessions</a>
+                        <a className="dropdown-item" href="#">Workshops</a>
+                        <a className="dropdown-item" href="#">Special Sessions</a>
+                        {/* <a className="dropdown-item" href="./workshops_updated.html">Workshops</a>
+                        <a className="dropdown-item" href="./special_sessions.html">Special Sessions</a> */}
                     </div>
                 </li> 
 
