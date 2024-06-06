@@ -71,7 +71,7 @@ const Home = () => {
                 </p>
                 <button
                     className="btn btn-primary"
-                    onClick='location.href="./assets/pdf/Call for papers.pdf";'
+                    // onClick='location.href="./assets/pdf/Call for papers.pdf";'
                     >
                     Download Guidelines
                     </button>
@@ -105,13 +105,13 @@ const Home = () => {
                 <h1 className="text-heading text-underline">Organized By</h1>
                 <div className="grid grid-sponsor">
                     <div className="img-container bg-white">
-                        <img src={require('../assets/logos/1.png')} alt="" class="grid-img" />
+                        <img src={require('../assets/logos/1.png')} alt="" className="grid-img" />
                     </div>
                     <div className="img-container bg-white">
-                        <img src={require('../assets/logos/2.png')} alt="" class="grid-img" />
+                        <img src={require('../assets/logos/2.png')} alt="" className="grid-img" />
                     </div>
                     <div className="img-container bg-white">
-                        <img src={require('../assets/logos/3.png')} alt="" class="grid-img" />
+                        <img src={require('../assets/logos/3.png')} alt="" className="grid-img" />
                     </div>
                 </div>
             </section>
