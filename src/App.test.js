@@ -1,8 +1,8 @@
-// import { render, screen } from '@testing-library/react';
-// import App from './App';
+import { render, screen } from '@testing-library/react';
+import App from './App';
 
-// test('renders learn react link', () => {
-//   render(<App />);
-//   const linkElement = screen.getByText(/learn react/i);
-//   expect(linkElement).toBeInTheDocument();
-// });
+test('find Moratuwa', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/Moratuwa Engineering Research Conference 2024/i);
+  expect(linkElement).toBeInTheDocument();
+});
